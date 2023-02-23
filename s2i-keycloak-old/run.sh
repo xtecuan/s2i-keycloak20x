@@ -1,1 +1,0 @@
-kc.sh start   --db-url-host jdbc:postgresql://192.168.60.1/keycloakdb --db-username keycloakdb --db-password Locator90210jrp5 --hostname-strict false --https-key-store-file /home/xtecuan/Projects/keycloak20/conf/server.keystore --hostname 192.168.60.241
