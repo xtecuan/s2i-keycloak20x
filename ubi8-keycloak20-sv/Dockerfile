@@ -24,6 +24,8 @@ ENV KC_HTTPS_PROTOCOLS "TLSv1.3,TLSv1.2"
 ENV KC_KEYSTORE "${INSTALL_DIR}/conf/server.keystore"
 ENV PROXY_ADDRESS_FORWARDING true
 ENV KEYCLOAK_FRONTEND_URL "https://${KC_HOSTNAME}:8443/"
+#### FOR OPENSHIFT THIS VARIABLE IS REQUIRED none, edge, reencrypt, passthrough
+#### ENV KC_PROXY passthrough
 
 # TODO: Set labels used in OpenShift to describe the builder image
 LABEL io.k8s.description="Platform for building Keycloak 20x" \
