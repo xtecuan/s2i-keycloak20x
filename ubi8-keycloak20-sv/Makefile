@@ -1,4 +1,4 @@
-IMAGE_NAME = s2i-keycloak
+IMAGE_NAME = quay.io/xtecuan/ubi8-keycloak20-sv
 
 .PHONY: build
 build:

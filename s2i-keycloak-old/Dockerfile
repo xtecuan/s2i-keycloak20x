@@ -20,6 +20,7 @@ RUN cp /etc/localtime /etc/localtime.old
 RUN rm -rfv /etc/localtime
 RUN ln -s /usr/share/zoneinfo/America/El_Salvador /etc/localtime
 RUN date
+RUN curl -o /opt/keycloak-20.0.5.tar.gz -L https://github.com/keycloak/keycloak/releases/download/20.0.5/keycloak-20.0.5.tar.gz 
 #RUN microdnf install curl ca-certificates net-tools fontconfig unzip nano wget \
 #    && microdnf update \
 #    && microdnf clean all
