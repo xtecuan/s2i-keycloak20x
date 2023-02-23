@@ -1,0 +1,1 @@
+kc.sh start '--optimized'  --db-url-host jdbc:postgresql://192.168.60.241:5432/keycloak --db-username keycloak --db-password Locator90210jrp5 --hostname-strict=false --https-key-store-file=conf/server.keystore --hostname 192.168.60.241 --verbose
