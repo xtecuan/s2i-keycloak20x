@@ -1,0 +1,1 @@
+## Here download the file https://github.com/keycloak/keycloak/releases/download/20.0.5/keycloak-20.0.5.tar.gz before build
