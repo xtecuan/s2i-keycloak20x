@@ -80,3 +80,8 @@ s2i build --incremental=true test/test-app quay.io/xtecuan/ubi8-keycloak20-sv qu
 ---> Building and installing application from source...
 ```
 This will run the *save-artifacts* script which includes the custom code to backup the currently running application source, rebuild the application image, and then re-deploy the previously saved source using the *assemble* script.
+
+#### Pulling the Image
+```
+docker pull quay.io/xtecuan/ubi8-keycloak20-sv
+```
